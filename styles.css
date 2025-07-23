@@ -15,8 +15,8 @@ body {
   font-family: 'Lexenda Deca', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #f0f2f5;
-  color: #333;
+  background-color: hsl(210, 20%, 96%);
+  color: hsl(0, 0%, 20%);
 }
 
 /* === Utility === */
@@ -27,23 +27,23 @@ body {
 }
 
 .section-box {
-  background-color: #ffffff;
+  background-color: hsl(0, 0%, 100%);
   padding: 3em 2em;
   margin-bottom: 3em;
   border-radius: 0.75em;
-  border: 0.05em solid #e0e0e0;
-  box-shadow: 0 0.2em 0.8em rgba(0, 0, 0, 0.03);
+  border: 0.05em solid hsl(0, 0%, 88%);
+  box-shadow: 0 0.2em 0.8em hsla(0, 0%, 0%, 0.03);
 }
 
 .section-box h2 {
   text-align: center;
-  color: #1a237e;
+  color: hsl(231, 61%, 30%);
   font-size: 2rem;
   margin-bottom: 1em;
 }
 
 .section-box p {
-  color: #555;
+  color: hsl(0, 0%, 33%);
 }
 
 /* === Grids === */
@@ -62,8 +62,8 @@ body {
 
 /* === NAVBAR === */
 .navbar {
-  background-color: #fff;
-  border-bottom: 0.05em solid #eee;
+  background-color: hsl(0, 0%, 100%);
+  border-bottom: 0.05em solid hsl(0, 0%, 93%);
   padding: 1em 0;
 }
 
@@ -85,18 +85,18 @@ body {
 
 .nav-menu li a {
   text-decoration: none;
-  color: #333;
+  color: hsl(0, 0%, 20%);
   font-weight: 600;
   font-size: 1rem;
 }
 
 .nav-menu li a:hover {
-  color: #007BFF;
+  color: hsl(211, 100%, 50%);
 }
 
 /* === HERO === */
 .hero {
-  background-color: #e3f2fd;
+  background-color: hsl(210, 100%, 94%);
   padding: 4em 2em;
   text-align: center;
   margin-bottom: 3em;
@@ -105,20 +105,20 @@ body {
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 1em;
-  color: #0d47a1;
+  color: hsl(221, 87%, 33%);
 }
 
 .hero .tagline {
   font-size: 1.25rem;
   margin-bottom: 1em;
-  color: #333;
+  color: hsl(0, 0%, 20%);
 }
 
 .hero .description {
   font-size: 1rem;
   max-width: 40rem;
   margin: 0 auto 2em;
-  color: #555;
+  color: hsl(0, 0%, 33%);
 }
 
 /* === Buttons === */
@@ -139,23 +139,23 @@ body {
 }
 
 .btn-primary {
-  background-color: #007BFF;
-  color: #fff;
+  background-color: hsl(211, 100%, 50%);
+  color: hsl(0, 0%, 100%);
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
+  background-color: hsl(211, 100%, 40%);
 }
 
 .btn-secondary {
-  background-color: #eaeaea;
-  color: #333;
-  border: 0.05em solid #ccc;
+  background-color: hsl(0, 0%, 92%);
+  color: hsl(0, 0%, 20%);
+  border: 0.05em solid hsl(0, 0%, 80%);
 }
 
 .btn-secondary:hover {
-  background-color: #d5d5d5;
+  background-color: hsl(0, 0%, 84%);
 }
 
 /* === SERVICES === */
@@ -167,17 +167,17 @@ body {
 }
 
 .service {
-  background-color: #fefefe;
+  background-color: hsl(0, 0%, 99%);
   padding: 2em;
   border-radius: 0.5em;
-  border: 0.05em solid #ddd;
+  border: 0.05em solid hsl(0, 0%, 87%);
   max-width: 20em;
   text-align: center;
 }
 
 .service h3 {
   font-size: 1.25rem;
-  color: #1a237e;
+  color: hsl(231, 61%, 30%);
   margin-bottom: 0.75em;
 }
 
@@ -192,20 +192,20 @@ body {
 
 .stats-list li {
   padding: 1em 2em;
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
   border-radius: 0.5em;
-  border: 0.05em solid #ddd;
+  border: 0.05em solid hsl(0, 0%, 87%);
   font-weight: 600;
   font-size: 1.125rem;
 }
 
 /* === ABOUT PAGE === */
 .about-section .grid-3 > div {
-  background-color: #ffffff;
+  background-color: hsl(0, 0%, 100%);
   border-radius: 0.5em;
   padding: 2em;
-  border: 0.05em solid #ddd;
-  box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.05);
+  border: 0.05em solid hsl(0, 0%, 87%);
+  box-shadow: 0 0.1em 0.4em hsla(0, 0%, 0%, 0.05);
   text-align: center;
 }
 
@@ -218,23 +218,23 @@ body {
 }
 
 .contact-info-section .info-grid div {
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
   padding: 2em;
   border-radius: 0.5em;
-  border: 0.05em solid #ddd;
+  border: 0.05em solid hsl(0, 0%, 87%);
 }
 
 .contact-form {
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
   padding: 2em;
   border-radius: 0.5em;
-  border: 0.05em solid #ddd;
-  box-shadow: 0 0.2em 0.5em rgba(0,0,0,0.04);
+  border: 0.05em solid hsl(0, 0%, 87%);
+  box-shadow: 0 0.2em 0.5em hsla(0, 0%, 0%, 0.04);
   margin-top: 3em;
 }
 
 .contact-form fieldset {
-  border: 0.05em solid #ccc;
+  border: 0.05em solid hsl(0, 0%, 80%);
   padding: 2em;
   border-radius: 0.4em;
   margin-bottom: 2em;
@@ -242,7 +242,7 @@ body {
 
 .contact-form legend {
   font-size: 1.25rem;
-  color: #1a237e;
+  color: hsl(231, 61%, 30%);
   margin-bottom: 1em;
 }
 
@@ -259,7 +259,7 @@ body {
   padding: 0.75em;
   margin-bottom: 1.5em;
   font-size: 1rem;
-  border: 0.05em solid #ccc;
+  border: 0.05em solid hsl(0, 0%, 80%);
   border-radius: 0.3em;
 }
 
@@ -278,8 +278,8 @@ body {
 }
 
 .office-grid div {
-  background-color: #fff;
-  border: 0.05em solid #ddd;
+  background-color: hsl(0, 0%, 100%);
+  border: 0.05em solid hsl(0, 0%, 87%);
   border-radius: 0.5em;
   padding: 2em;
 }
@@ -288,15 +288,15 @@ body {
 .quick-actions ul {
   margin-top: 1.5em;
   list-style: disc inside;
-  color: #333;
+  color: hsl(0, 0%, 20%);
 }
 
 .quick-actions li {
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
   margin-bottom: 1em;
   padding: 1em;
   border-radius: 0.5em;
-  border: 0.05em solid #ddd;
+  border: 0.05em solid hsl(0, 0%, 87%);
 }
 
 /* === CASE STUDIES === */
@@ -308,28 +308,28 @@ body {
 }
 
 .case-study {
-  background-color: #ffffff;
-  border: 0.07em solid #d0d7de;
+  background-color: hsl(0, 0%, 100%);
+  border: 0.07em solid hsl(210, 20%, 85%);
   border-radius: 0.75em;
   padding: 2.5em 2em;
-  box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0.2em 0.5em hsla(0, 0%, 0%, 0.04);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .case-study:hover {
   transform: translateY(-0.2em);
-  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.5em 1em hsla(0, 0%, 0%, 0.08);
 }
 
 .case-study h2 {
   font-size: 1.75rem;
-  color: #0d47a1;
+  color: hsl(221, 87%, 33%);
   margin-bottom: 0.5em;
 }
 
 .case-study h3 {
   font-size: 1.25rem;
-  color: #1a237e;
+  color: hsl(231, 61%, 30%);
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
@@ -338,7 +338,7 @@ body {
 .case-study li {
   font-size: 1rem;
   line-height: 1.7;
-  color: #444;
+  color: hsl(0, 0%, 27%);
 }
 
 .case-study ul {
@@ -347,19 +347,19 @@ body {
 }
 
 .case-study blockquote {
-  border-left: 0.3em solid #1976d2;
-  background-color: #f1f8ff;
+  border-left: 0.3em solid hsl(210, 80%, 50%);
+  background-color: hsl(210, 100%, 97%);
   padding: 1em 1.5em;
   margin: 2em 0;
   font-style: italic;
-  color: #333;
+  color: hsl(0, 0%, 20%);
 }
 
 .case-study blockquote footer {
   font-style: normal;
   font-weight: bold;
   margin-top: 0.5em;
-  color: #0d47a1;
+  color: hsl(221, 87%, 33%);
 }
 
 .box {
@@ -378,8 +378,8 @@ body {
   width: 100%;
   border-collapse: collapse;
   font-size: 1rem;
-  background-color: #fff;
-  border: 0.05em solid #ddd;
+  background-color: hsl(0, 0%, 100%);
+  border: 0.05em solid hsl(0, 0%, 87%);
   border-radius: 0.5em;
 }
 
@@ -389,31 +389,31 @@ body {
 .styled-table td {
   padding: 1em;
   text-align: left;
-  border: 0.05em solid #ddd;
+  border: 0.05em solid hsl(0, 0%, 87%);
 }
 
 .table th,
 .styled-table th {
-  background-color: #f4f6f8;
-  color: #1a237e;
+  background-color: hsl(210, 20%, 96%);
+  color: hsl(231, 61%, 30%);
 }
 
 .table tbody tr:hover,
 .styled-table tbody tr:hover {
-  background-color: #f0f0f0;
+  background-color: hsl(0, 0%, 94%);
 }
 
 .styled-table caption {
   font-weight: bold;
   margin-bottom: 0.5em;
   text-align: left;
-  color: #0d47a1;
+  color: hsl(221, 87%, 33%);
 }
 
 /* === FOOTER === */
 .footer {
-  background-color: #222;
-  color: #fff;
+  background-color: hsl(0, 0%, 13%);
+  color: hsl(0, 0%, 100%);
   padding: 3em 2em;
   text-align: center;
 }
