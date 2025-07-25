@@ -1,122 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Learn about Tatua's mission to eliminate support chaos and meet our team of enterprise support experts.">
-  <title>About Us - Tatua Solutions</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Tatua Solutions</title>
   <link rel="icon" href="tatua-favicon.png" type="image/png" />
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Top Navigation / Logo Bar -->
-  <nav class="navbar">
-    <div class="container nav-container">
+  <header class="navbar">
+    <div class="container">
       <a href="index.html" class="logo">
         <img src="tatua-logo.png" alt="Tatua Logo">
       </a>
-      <ul class="nav-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="case-studies.html">Case Studies</a></li>
-      </ul>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="case-studies.html">Case Studies</a>
+      </nav>
+      <div class="nav-controls">
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-circle-half-stroke"></i> <!-- better than fa-sun for toggling themes -->
+        </button>
+        <div class="font-toggle">
+          <!-- Font size adjuster: use a text-size icon -->
+        <button class="font-size-toggle" aria-label="Adjust font size">
+          <i class="fas fa-text-height"></i>
+        </button>
+        <input type="range" min="12" max="20" value="16">
+        </div>
+      </div>
     </div>
-  </nav>
+  </header>
 
-  <!-- Breadcrumb -->
-  <section class="section-box container">
-    <p><a href="index.html">Home</a> &gt; About</p>
-  </section>
-
-  <!-- Company Story -->
-  <section class="section-box container">
-    <h2>Our Story</h2>
-    <p>Founded in 2020 by former enterprise support leaders, Tatua was born from frustration with outdated ticketing systems. We've processed over 2 million support tickets and helped companies reduce response times by an average of 45%.</p>
-    <p>After experiencing the pain of managing support operations at scale, our founders knew there had to be a better way. Traditional ticketing systems were slow, inflexible, and created more problems than they solved.</p>
-  </section>
-
-  <!-- Mission -->
-  <section class="section-box container">
-    <h2>Our Mission</h2>
-    <p>To eliminate support chaos and help businesses deliver exceptional customer experiences through intelligent automation and streamlined workflows.</p>
-  </section>
-
-  <!-- Team -->
-  <section class="section-box container">
-    <h2>Meet Our Team</h2>
-    <div class="team-grid">
-      <div class="team-member">
-        <h3>Sarah Chen</h3>
-        <p><strong>CEO & Co-founder</strong></p>
-        <p>Former Head of Support at TechCorp</p>
-        <p>10+ years in customer success</p>
-        <p><strong>Email:</strong> sarah@tatua.com</p>
-        <p>Sarah led support teams of 50+ agents and understands the challenges of scaling customer service operations.</p>
-      </div>
-      <div class="team-member">
-        <h3>Marcus Rodriguez</h3>
-        <p><strong>CTO & Co-founder</strong></p>
-        <p>Ex-Senior Engineer at CloudScale</p>
-        <p>Expert in distributed systems</p>
-        <p><strong>Email:</strong> marcus@tatua.com</p>
-        <p>Marcus built high-performance systems serving millions of users and brings that expertise to support infrastructure.</p>
-      </div>
-      <div class="team-member">
-        <h3>Jennifer Park</h3>
-        <p><strong>Head of Product</strong></p>
-        <p>Former Product Manager at SupportFlow</p>
-        <p>Specialist in UX design</p>
-        <p><strong>Email:</strong> jennifer@tatua.com</p>
-        <p>Jennifer designed user experiences for complex enterprise software and focuses on making support tools intuitive.</p>
-      </div>
-      <div class="team-member">
-        <h3>David Kim</h3>
-        <p><strong>Lead Developer</strong></p>
-        <p>Full-stack engineer, 8 years experience</p>
-        <p>Open source contributor</p>
-        <p><strong>Email:</strong> david@tatua.com</p>
-        <p>David contributes to major open source projects and ensures our platform follows industry best practices.</p>
-      </div>
+  <section class="section-box">
+    <div class="container">
+      <p class="breadcrumb">Home > About</p>
+      <h1>Our Story</h1>
+      <p>Founded in 2020 by former enterprise support leaders, Tatua was born from frustration with outdated ticketing systems. We've processed over 2 million support tickets and helped companies reduce response times by an average of 45%.</p>
+      <p>After experiencing the pain of managing support operations at scale, our founders knew there had to be a better way. Traditional ticketing systems were slow, inflexible, and created more problems than they solved.</p>
     </div>
   </section>
 
-  <!-- Stats -->
-  <section class="section-box container">
-    <h2>By the Numbers</h2>
-    <ul class="stats-list">
-      <li><strong>Founded:</strong> 2020</li>
-      <li><strong>Team Members:</strong> 25+</li>
-      <li><strong>Happy Customers:</strong> 500+</li>
-      <li><strong>Tickets Processed:</strong> 2M+</li>
-      <li><strong>Avg. Resolution Improvement:</strong> 45%</li>
-      <li><strong>Customer Satisfaction:</strong> 4.8/5 stars</li>
-    </ul>
+  <section class="section-box">
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p>To eliminate support chaos and help businesses deliver exceptional customer experiences through intelligent automation and streamlined workflows.</p>
+    </div>
   </section>
 
-  <!-- Values -->
-  <section class="section-box container">
-    <h2>Our Values</h2>
-    <ul class="value-list">
-      <li><strong>Customer First:</strong> Every decision starts with how it impacts customer experience</li>
-      <li><strong>Transparency:</strong> Open communication builds trust with customers and teammates</li>
-      <li><strong>Innovation:</strong> Continuously improving to solve evolving support challenges</li>
-      <li><strong>Reliability:</strong> Building systems that work when customers need them most</li>
-    </ul>
+  <section class="section-box">
+    <div class="container">
+      <h2>Meet Our Team</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Sarah Chen</h3>
+          <p>CEO & Co-founder</p>
+          <p>Former Head of Support at TechCorp</p>
+          <p>10+ years in customer success</p>
+          <p>Email: sarah@tatua.com</p>
+        </div>
+        <div class="card">
+          <h3>Marcus Rodriguez</h3>
+          <p>CTO & Co-founder</p>
+          <p>Ex-Senior Engineer at CloudScale</p>
+          <p>Expert in distributed systems</p>
+          <p>Email: marcus@tatua.com</p>
+        </div>
+        <div class="card">
+          <h3>Jennifer Park</h3>
+          <p>Head of Product</p>
+          <p>Former Product Manager at SupportFlow</p>
+          <p>Specialist in UX design</p>
+          <p>Email: jennifer@tatua.com</p>
+        </div>
+        <div class="card">
+          <h3>David Kim</h3>
+          <p>Lead Developer</p>
+          <p>Full-stack engineer, 8 years experience</p>
+          <p>Open source contributor</p>
+          <p>Email: david@tatua.com</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Footer -->
+  <section class="section-box">
+    <div class="container">
+      <h2>By the Numbers</h2>
+      <div class="card-grid">
+        <div class="card">
+          <p>Founded: 2020</p>
+        </div>
+        <div class="card">
+          <p>Team Members: 25+</p>
+        </div>
+        <div class="card">
+          <p>Happy Customers: 500+</p>
+        </div>
+        <div class="card">
+          <p>Tickets Processed: 2M+</p>
+        </div>
+        <div class="card">
+          <p>Avg. Resolution Improvement: 45%</p>
+        </div>
+        <div class="card">
+          <p>Customer Satisfaction: 4.8/5 stars</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-box">
+    <div class="container">
+      <h2>Our Values</h2>
+      <div class="card-grid">
+        <div class="card">
+          <p>Customer First: Every decision starts with how it impacts customer experience</p>
+        </div>
+        <div class="card">
+          <p>Transparency: Open communication builds trust with customers and teammates</p>
+        </div>
+        <div class="card">
+          <p>Innovation: Continuously improving to solve evolving support challenges</p>
+        </div>
+        <div class="card">
+          <p>Reliability: Building systems that work when customers need them most</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer class="footer">
     <div class="container">
       <p>© 2025 Tatua Solutions Inc.</p>
-      <ul class="contact-info">
-        <li><strong>Email:</strong> hello@tatua.com</li>
-        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
-        <li><strong>Address:</strong> 123 Innovation Drive, Suite 400, San Francisco, CA 94105</li>
-      </ul>
+      <p>Email: <a href="mailto:hello@tatua.com">hello@tatua.com</a></p>
+      <p>Phone: +1 (555) 123-4567</p>
+      <p>Address: 123 Innovation Drive, Suite 400, San Francisco, CA 94105</p>
+      <div class="social-links">
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      </div>
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
